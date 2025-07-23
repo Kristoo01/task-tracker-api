@@ -73,6 +73,11 @@ Using `curl` to create a task:
 
 ✅ Minimal viable project (MVP) complete.
 
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 
 
