@@ -63,9 +63,29 @@ Using `curl` to create a task:
 
 ## Future Improvements
 
-* Add persistent storage using SQLite or PostgreSQL
+✅ Add persistent storage using SQLite or PostgreSQL
 * User authentication
 * Add unit tests
+
+---
+
+## Continuous Integration (CI)
+
+This project uses **GitHub Actions** for continuous integration to ensure code quality and test coverage.
+
+### What It Does
+- ✅ Automatically installs dependencies
+- ✅ Runs all tests using `pytest` on each push or pull request to the `main` branch
+- ✅ Catches breaking changes early in the development cycle
+
+### How It Works
+The CI pipeline is defined in `.github/workflows/ci.yml`. It uses:
+- `ubuntu-latest` as the runner
+- Python 3.11
+- `pip` for dependency installation
+- `pytest` for testing
+
+You can view the workflow runs under the **Actions** tab of this repository.
 
 ---
 
